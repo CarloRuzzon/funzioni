@@ -5,8 +5,8 @@ LDLIBS=
 random: random.o main.o
 
 
-random.o: random.c
-main.o: main.c
+random.o: random.c random.h
+main.o: main.c 
 
 .PHONY: clean
 clean:
