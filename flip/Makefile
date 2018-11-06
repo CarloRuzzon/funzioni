@@ -4,7 +4,7 @@ LDLIBS=
 
 coin: coin.o main.o random.o
 
-random.o: random.c random.h
+random.o: random.c coin.h random.h
 coin.o: coin.c coin.h random.h
 main.o: main.c coin.h
 
