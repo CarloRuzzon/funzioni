@@ -6,7 +6,7 @@ random: random.o main.o
 
 
 random.o: random.c random.h
-main.o: main.c 
+main.o: main.c random.c 
 
 .PHONY: clean
 clean:
