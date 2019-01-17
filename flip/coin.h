@@ -1,8 +1,8 @@
-#ifdef COIN_H
+#ifndef COIN_H
 #define COIN_H
 
 int c_init();
-int c_between();
-int c_sim();
+int c_flip();
+int c_trials(int trials);
 
 #endif

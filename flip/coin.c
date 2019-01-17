@@ -6,17 +6,17 @@ int c_init()
   random_init();
 }
 
-int c_between()
+int c_flip()
 {
   return random_between(0,2);
 }
 
-int c_sim()
+int c_trials(int trials)
 {
   int i;
   int head = 0;
-  for(i = 0; i < 100; i++){
-    if(c_between() == 0)
+  for(i = 0; i < trials; i++){
+    if(c_flip() == 0)
       head++;
   }
   return head;
