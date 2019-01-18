@@ -5,5 +5,5 @@ int dado_init(){
   random_init();
 }
 int dado_flip(){
-  return random_between(0,6);
+  return random_between(1,7);
 }

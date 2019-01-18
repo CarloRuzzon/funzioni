@@ -1,4 +1,4 @@
-#ifdef DADO_H
+#ifndef DADO_H
 #define DADO_H
 
 int dado_init();
